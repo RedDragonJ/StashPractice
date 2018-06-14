@@ -44,9 +44,8 @@ extension ZeplinLevelListViewController: UITableViewDataSource {
             cell.currentPointLabel.text = String(format: "%ipt", self.achievements[indexPath.row].progress)
             cell.maxPointLabel.text = String(format: "%ipt", self.achievements[indexPath.row].total)
             
-            let currentProgress = Float(self.achievements[indexPath.row].progress) * 10.0
-            let maxProgress = Float(self.achievements[indexPath.row].total) * 10.0
-            cell.progress = currentProgress / maxProgress
+            let calculator = Calculation()
+            cell.progress = calculator.calculateProgress(self.achievements[indexPath.row].progress, self.achievements[indexPath.row].total)
             
             return cell
         }

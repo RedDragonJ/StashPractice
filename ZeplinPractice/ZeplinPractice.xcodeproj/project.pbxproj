@@ -22,7 +22,27 @@
 		D607488F20D2E7C400FD3F81 /* ZeplinLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607488E20D2E7C400FD3F81 /* ZeplinLevelTableViewCell.swift */; };
 		D607489120D2FA4600FD3F81 /* ZeplinProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607489020D2FA4600FD3F81 /* ZeplinProgressBar.swift */; };
 		D607489420D30D6300FD3F81 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607489320D30D6300FD3F81 /* IndicatorView.swift */; };
+		D60748CE20D323DF00FD3F81 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60748CD20D323DF00FD3F81 /* Calculation.swift */; };
+		D60748D620D325D200FD3F81 /* CalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60748D520D325D200FD3F81 /* CalculatorTest.swift */; };
+		D60748F220D32BEA00FD3F81 /* JsonDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60748F120D32BEA00FD3F81 /* JsonDataTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D60748D820D325D200FD3F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607485320D21F3F00FD3F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D607485A20D21F3F00FD3F81;
+			remoteInfo = ZeplinPractice;
+		};
+		D60748F420D32BEA00FD3F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607485320D21F3F00FD3F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D607485A20D21F3F00FD3F81;
+			remoteInfo = ZeplinPractice;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D607485B20D21F3F00FD3F81 /* ZeplinPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeplinPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,10 +62,31 @@
 		D607488E20D2E7C400FD3F81 /* ZeplinLevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeplinLevelTableViewCell.swift; sourceTree = "<group>"; };
 		D607489020D2FA4600FD3F81 /* ZeplinProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeplinProgressBar.swift; sourceTree = "<group>"; };
 		D607489320D30D6300FD3F81 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		D60748CD20D323DF00FD3F81 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		D60748D320D325D200FD3F81 /* CalculatorTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60748D520D325D200FD3F81 /* CalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTest.swift; sourceTree = "<group>"; };
+		D60748D720D325D200FD3F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60748EF20D32BEA00FD3F81 /* JsonDataTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonDataTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60748F120D32BEA00FD3F81 /* JsonDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataTest.swift; sourceTree = "<group>"; };
+		D60748F320D32BEA00FD3F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D607485820D21F3F00FD3F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60748D020D325D200FD3F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60748EC20D32BEA00FD3F81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				D607485D20D21F3F00FD3F81 /* ZeplinPractice */,
+				D60748D420D325D200FD3F81 /* CalculatorTest */,
+				D60748F020D32BEA00FD3F81 /* JsonDataTest */,
 				D607485C20D21F3F00FD3F81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				D607485B20D21F3F00FD3F81 /* ZeplinPractice.app */,
+				D60748D320D325D200FD3F81 /* CalculatorTest.xctest */,
+				D60748EF20D32BEA00FD3F81 /* JsonDataTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,8 +231,27 @@
 			isa = PBXGroup;
 			children = (
 				D607489320D30D6300FD3F81 /* IndicatorView.swift */,
+				D60748CD20D323DF00FD3F81 /* Calculation.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D60748D420D325D200FD3F81 /* CalculatorTest */ = {
+			isa = PBXGroup;
+			children = (
+				D60748D520D325D200FD3F81 /* CalculatorTest.swift */,
+				D60748D720D325D200FD3F81 /* Info.plist */,
+			);
+			path = CalculatorTest;
+			sourceTree = "<group>";
+		};
+		D60748F020D32BEA00FD3F81 /* JsonDataTest */ = {
+			isa = PBXGroup;
+			children = (
+				D60748F120D32BEA00FD3F81 /* JsonDataTest.swift */,
+				D60748F320D32BEA00FD3F81 /* Info.plist */,
+			);
+			path = JsonDataTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +274,42 @@
 			productReference = D607485B20D21F3F00FD3F81 /* ZeplinPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D60748D220D325D200FD3F81 /* CalculatorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60748DA20D325D200FD3F81 /* Build configuration list for PBXNativeTarget "CalculatorTest" */;
+			buildPhases = (
+				D60748CF20D325D200FD3F81 /* Sources */,
+				D60748D020D325D200FD3F81 /* Frameworks */,
+				D60748D120D325D200FD3F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60748D920D325D200FD3F81 /* PBXTargetDependency */,
+			);
+			name = CalculatorTest;
+			productName = CalculatorTest;
+			productReference = D60748D320D325D200FD3F81 /* CalculatorTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D60748EE20D32BEA00FD3F81 /* JsonDataTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60748F620D32BEA00FD3F81 /* Build configuration list for PBXNativeTarget "JsonDataTest" */;
+			buildPhases = (
+				D60748EB20D32BEA00FD3F81 /* Sources */,
+				D60748EC20D32BEA00FD3F81 /* Frameworks */,
+				D60748ED20D32BEA00FD3F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60748F520D32BEA00FD3F81 /* PBXTargetDependency */,
+			);
+			name = JsonDataTest;
+			productName = JsonDataTest;
+			productReference = D60748EF20D32BEA00FD3F81 /* JsonDataTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +322,14 @@
 				TargetAttributes = {
 					D607485A20D21F3F00FD3F81 = {
 						CreatedOnToolsVersion = 9.4;
+					};
+					D60748D220D325D200FD3F81 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D607485A20D21F3F00FD3F81;
+					};
+					D60748EE20D32BEA00FD3F81 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D607485A20D21F3F00FD3F81;
 					};
 				};
 			};
@@ -239,6 +347,8 @@
 			projectRoot = "";
 			targets = (
 				D607485A20D21F3F00FD3F81 /* ZeplinPractice */,
+				D60748D220D325D200FD3F81 /* CalculatorTest */,
+				D60748EE20D32BEA00FD3F81 /* JsonDataTest */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +366,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D60748D120D325D200FD3F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60748ED20D32BEA00FD3F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,6 +389,7 @@
 			files = (
 				D607485F20D21F3F00FD3F81 /* AppDelegate.swift in Sources */,
 				D607488920D2D77300FD3F81 /* ZeplinLevelListViewController.swift in Sources */,
+				D60748CE20D323DF00FD3F81 /* Calculation.swift in Sources */,
 				D607488220D2CEC500FD3F81 /* Achievenments.swift in Sources */,
 				D607488420D2CFAF00FD3F81 /* ZeplinInteractor.swift in Sources */,
 				D607489420D30D6300FD3F81 /* IndicatorView.swift in Sources */,
@@ -276,7 +401,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D60748CF20D325D200FD3F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60748D620D325D200FD3F81 /* CalculatorTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60748EB20D32BEA00FD3F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60748F220D32BEA00FD3F81 /* JsonDataTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60748D920D325D200FD3F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D607485A20D21F3F00FD3F81 /* ZeplinPractice */;
+			targetProxy = D60748D820D325D200FD3F81 /* PBXContainerItemProxy */;
+		};
+		D60748F520D32BEA00FD3F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D607485A20D21F3F00FD3F81 /* ZeplinPractice */;
+			targetProxy = D60748F420D32BEA00FD3F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D607486220D21F3F00FD3F81 /* Main.storyboard */ = {
@@ -448,6 +602,86 @@
 			};
 			name = Release;
 		};
+		D60748DB20D325D200FD3F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				INFOPLIST_FILE = CalculatorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.James.CalculatorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeplinPractice.app/ZeplinPractice";
+			};
+			name = Debug;
+		};
+		D60748DC20D325D200FD3F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				INFOPLIST_FILE = CalculatorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.James.CalculatorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeplinPractice.app/ZeplinPractice";
+			};
+			name = Release;
+		};
+		D60748F720D32BEA00FD3F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				INFOPLIST_FILE = JsonDataTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.James.JsonDataTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeplinPractice.app/ZeplinPractice";
+			};
+			name = Debug;
+		};
+		D60748F820D32BEA00FD3F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				INFOPLIST_FILE = JsonDataTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.James.JsonDataTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeplinPractice.app/ZeplinPractice";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +699,24 @@
 			buildConfigurations = (
 				D607486E20D21F4000FD3F81 /* Debug */,
 				D607486F20D21F4000FD3F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60748DA20D325D200FD3F81 /* Build configuration list for PBXNativeTarget "CalculatorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60748DB20D325D200FD3F81 /* Debug */,
+				D60748DC20D325D200FD3F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60748F620D32BEA00FD3F81 /* Build configuration list for PBXNativeTarget "JsonDataTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60748F720D32BEA00FD3F81 /* Debug */,
+				D60748F820D32BEA00FD3F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
